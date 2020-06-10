@@ -1,0 +1,49 @@
+body{
+  background-image: url('wallpaper1.png');
+  color: black;
+}
+
+img{
+  background-color: transparent;
+  width: 30px;
+  height: 30px;
+}
+
+hr{
+  border-style: double none none;
+  border-width: 5px;
+}
+
+h3,h2{
+  display: inline;
+}
+
+.image{
+  border-radius: 20%;
+  width: 350px;
+  height: 350px;
+}
+
+.skills{
+  font-style: oblique;
+  font-size: 130%;
+}
+
+.languages{
+  font-size: 130%;
+}
+
+input{
+  background-color: transparent;
+  border-style: none;
+  font-size: 100%;
+  color: black;
+}
+
+a{
+  font-style: normal;
+}
+
+ul{
+  font-size: 130%;
+}
