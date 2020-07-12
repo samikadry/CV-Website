@@ -1,0 +1,141 @@
+/*@keyframes example {
+  from {
+    opacity: 0.5;
+    transition-property: opacity;
+  }
+  to {
+    opacity: 1;
+  }
+}*/
+
+body{
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+/*div{
+  position: relative;
+  animation-name: example;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}*/
+
+.Name{
+  font-size: 300%;
+}
+
+.summary{
+  background-image: url('../pictures/summary.jpg');
+  background-color: transparent;
+  background-size: 1190px;
+  background-position: right;
+}
+
+.education{
+  background-image: url('../pictures/education.jpg');
+  background-color: black;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 400px;
+}
+
+.training{
+  background-image: url('../pictures/training.jpg');
+  color: black;
+  background-size: cover;
+  background-position: top;
+  height: 540px;
+}
+
+.techSkills{
+  background-image: url('../pictures/techskills.jpg');
+  color: black;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.experience{
+  background-image: url('../pictures/experience.jpg');
+  color: black;
+  background-size: cover;
+  height: 500px;
+}
+
+.spokenLanguages{
+  background-image: url('../pictures/languages.png');
+  background-color: white;
+  color: white;
+  background-size: 1350px 700px;
+  background-position: 0px -150px;
+  background-repeat: no-repeat;
+  height: 300px;
+}
+
+.contact{
+  background-image: url('../pictures/contact.png');
+  background-color: white;
+  color: black;
+  background-size: 550px 200px;
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 200px;
+}
+
+ul{
+  margin: 0;
+}
+
+img{
+  background-color: transparent;
+  width: 30px;
+  height: 30px;
+}
+
+hr{
+  border-style: hidden;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+h3,h2{
+  display: inline;
+}
+
+.image{
+  border-radius: 20%;
+  width: 350px;
+  height: 350px;
+}
+
+.skills{
+  font-style: oblique;
+  font-size: 130%;
+}
+
+.languages{
+  font-size: 130%;
+}
+
+input{
+  background-color: transparent;
+  border-style: none;
+  font-size: 100%;
+  color: black;
+}
+
+a{
+  font-style: normal;
+}
+
+ul{
+  font-size: 130%;
+}
+
+.work{
+  padding-left: 0;
+}
